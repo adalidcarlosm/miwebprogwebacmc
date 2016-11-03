@@ -1,12 +1,551 @@
-<<html>
+<!--
+Author: Mario Silva
+Author URL: www.mariosilva.com
+-->
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>SITIO DHTML</title>
+<title>Venta de Computadoras | Inicio</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Impetus Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+<!--web-fonts-->
+<link href="//fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+<!--//web-fonts-->
+<!--//fonts-->
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!--light-box-files -->
+<script src="js/modernizr.custom.js"></script>
+<script src="js/jquery.chocolat.js"></script>
+<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen">
+<!--//light-box-files -->
+		<script type="text/javascript">
+		$(function() {
+			$('.gallery a').Chocolat();
+		});
+		</script>
+<!-- //js -->
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
 </head>
 <body>
+<div class="banner-w3layouts">
+		<!--Top-Bar-->
+	<div class="header">
+		<nav class="navbar navbar-default">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<h1><a  href="index.html">CompuVentas</a></h1>
+					</div>
+					<div class="top-nav-text">
+						<p>LLamanos : <span class="call">+504 9645-0971</span></p>
+						<p>Escribenos : <span class="mail"><a href="www.mariosilva.com">mariosilvacastillo@gmail.com</a></span></p>
+					</div>
+					<!-- navbar-header -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a class="hvr-underline-from-center scroll" href="index.html">Inicio</a></li>
+							<li><a href="#about" class="hvr-underline-from-center scroll">Acerca De</a></li>
+							<li><a href="#services" class="hvr-underline-from-center scroll">Ofertas del Dia</a></li>
+							<li><a href="#team" class="hvr-underline-from-center scroll scroll">Servicios</a></li>
+							<li><a href="#gallery" class="hvr-underline-from-center scroll scroll">Inventario</a></li>
+							<li><a href="#contact" class="hvr-underline-from-center scroll scroll">Contactenos</a>
+						</ul>
+					</div>
+					<div class="clearfix"> </div>	
+				</nav>
+	
+	</div>
+		<!--//Top-Bar-->
+<!--banner-->
+		<!--Slider-->
+			<div class="w3l_banner_info">
+				<div class="slider">
+					<div class="callbacks_container">
+								<ul class="rslides" id="slider3">
+									<li>
+										<div class="slider-img">
+											<img src="images/banner1.jpg" class="img-responsive" alt="impetus">
+										</div>
+										<div class="slider_banner_info">
+											 <h4> Nuevas Laptos,Ultrabook y Tablets</h4>
+											<p>¡La tecnologia Samsung te da el Poder de hacer mas! </p>
+										</div>
 
-	<h1>Hello World!</h1>
+									</li>
+									<li>
+										<div class="slider-img">
+											<img src="images/banner2.jpg" class="img-responsive" alt="impetus">
+										</div>
+										<div class="slider_banner_info">
+											<h4>Compre las mejores la Laptos  Acer</h4>
+											<p>¡Con el ultimo procesador que hara mas rapido tu trabajo!</p>
+										</div>
 
-	<h1>Mi nombre es Adalid</h1>
+									</li>
+									<li>
+										<div class="slider-img">
+											<img src="images/banner3.jpg" class="img-responsive" alt="impetus">
+										</div>
+										<div class="slider_banner_info">
+											<h4>Servicios integrales personalizados</h4>
+											<p>¡Comunicate mas rapido!</p>
+										</div>
 
+									</li>
+									<li>
+										<div class="slider-img">
+											<img src="images/banner4.jpg" class="img-responsive" alt="impetus">
+										</div>
+									<div class="slider_banner_info">
+											<h4>Contamos con el mejor inventario de las mejores marcas</h4>
+											<p>¡Tenemos los equipos que tu necesitas!</p>
+										</div>
+
+									</li>
+
+								</ul>
+					</div>
+				</div>
+		</div>
+			<!--//Slider-->
+		
+
+					<!--banner Slider starts Here-->
+						<script src="js/responsiveslides.min.js"></script>
+							<script>
+								// You can also use "$(window).load(function() {"
+								$(function () {
+								  // Slideshow 4
+								  $("#slider3").responsiveSlides({
+									auto: true,
+									pager:true,
+									nav:false,
+									speed: 500,
+									namespace: "callbacks",
+									before: function () {
+									  $('.events').append("<li>before event fired.</li>");
+									},
+									after: function () {
+									  $('.events').append("<li>after event fired.</li>");
+									}
+								  });
+							
+								});
+							 </script>
+
+							<!--banner Slider starts Here-->
+						</div>		
+						<div class="clearfix"></div>
+		<!--banner-grids-->
+				<div class="banner-bottom-w3">
+					<div class="col-md-6 banner-grid-w3l">
+						<h2>Nuestras Marcas</h2>
+							<ul>
+								<li><i class="fa fa-angle-double-right" aria-hidden="true"></i>Dell</li>
+								<li><i class="fa fa-angle-double-right" aria-hidden="true"></i>Sony Vaio</li>
+								<li><i class="fa fa-angle-double-right" aria-hidden="true"></i>Toshiba</li>
+								<li><i class="fa fa-angle-double-right" aria-hidden="true"></i>Azus</li>
+							</ul>
+					</div>
+					<div class="col-md-6 banner-grid-w3l">
+						<h2> Confiabilidad</h2>
+							<ul>
+								<li><i class="fa fa-angle-double-right" aria-hidden="true"></i>Garantia</li>
+								<li><i class="fa fa-angle-double-right" aria-hidden="true"></i>Soporte Remoto</li>
+								<li><i class="fa fa-angle-double-right" aria-hidden="true"></i>Taller Tecnico</li>
+								<li><i class="fa fa-angle-double-right" aria-hidden="true"></i>Revision Anual Gratis</li>
+							</ul>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			<!--//banner-grids-->
+<!--//banner-->
+
+<!--about-section-->
+<div class="about-w3ls" id="about">
+	<div class="container">
+		<h4 class="title-w3">Acerca de</h4>
+			<div class="about-left-agileits">
+				<label></label>
+				<span class="sub">"Escuchar, Aprender, Entregar soluciones."</span>
+				<h5 class="sub-title"> Esto es lo que hacemos.</h5>
+				<p class="para-w3">Potenciamos a nuestros clientes y a gente de cualquier lugar para que usen la tecnología con el fin de concretar sus sueños. Los clientes confían en nosotros para que les brindemos las soluciones tecnológicas que les permitan aumentar sus logros, tanto en el hogar como en el trabajo, la escuela o cualquier otra parte. Obtenga más información sobre nuestra historia, nuestros propósitos y sobre la gente que está detrás de nuestro enfoque centrado en los clientes. </p>
+				<a href="#" data-toggle="modal" data-target="#myModal1"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>Leer mas</a>
+				<!-- Modal1 -->
+						<div class="modal fade" id="myModal1" role="dialog">
+							<div class="modal-dialog">
+							<!-- Modal content-->
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<h4>Acerca de</h4>
+										<h5>Nuestros Clientes se Encuentran en el Corazon de Todo lo que Hacemos</h5>
+										<p>En todo lo que hacemos, nos concentramos en brindar soluciones que posibiliten decisiones más inteligentes y resultados más efectivos para que nuestros clientes puedan superar obstáculos, hacer realidad sus ideas y alcanzar sus sueños. Por sobre todo, estamos comprometidos con el valor superior a largo plazo que necesitan para crecer y prosperar.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- //Modal1 -->
+				<label class="right"></label>
+			</div>
+			<div class="about-right-agileinfo">
+				<img src="images/about.jpg" alt="Aboutus image">
+			</div>
+			<div class="clearfix"></div>
+	</div>
+</div>
+<!--about-section-->
+<!--services-section-->
+<div class="services" id="services">
+	<div class="container">
+		<h4 class="title-w3">Ofertas delDia</h4>
+			<div class=" col-md-4 section-grid-wthree one">
+				<div class="services-info-w3-agileits">
+					<h5 class="sub-title">$ 645.60</h5>
+					<p class="para-w3">DELL LATITUDE E5450 i7-5600U 14' 8GB
+						- 14"
+						- 1366 x 768 LED
+						- Intel Core i7 I7-5600U
+						- 3.2 GHz
+						- 8 GB DDR3L SDRAM
+						- 500 GB HDD
+						- NVIDIA GeForce 840M
+						- Microsoft Windows 7 Professional
+						- 64-bit Edition / Windows 8.1 Pro 64-bit Edition downgrade
+						- Integrated Webcam
+						- Black
+						- Spanish
+						- Corporate business / Small business
+						- 840M 2GB / 4 Celdas
+					</p>
+				</div>
+				<div class="services-img-agileits-w3layouts">
+					<img src="images/service1.jpg" alt="service-img">
+				</div>
+			</div>
+			<div class=" col-md-4 section-grid-wthree">
+				<div class="services-img-agileits-w3layouts">
+					<img src="images/service3.jpg" alt="service-img">
+				</div>
+				<div class="services-info-w3-agileits mid">
+					<h5 class="sub-title">$ 589.00</h5>
+					<p class="para-w3">Sony Vaio Fit SVF14A16CX
+						- 14"
+						- 1366 x 768 LED
+						- Intel Core i7-3537U
+						- 2.0 GHz
+						- 8 GB DDR3L SDRAM
+						- 750 GB HDD
+						- NVIDIA GeForce 840M
+						- Microsoft Windows 7 Professional
+						- 64-bit Edition / Windows 10 Pro 64-bit
+						- Integrated Webcam
+						- White
+						- Spanish
+						- Corporate business / Small business
+						- 840M 2GB / 4 Celdas</p>
+				</div>
+			</div>
+			<div class=" col-md-4 section-grid-wthree">
+				<div class="services-info-w3-agileits">
+					<h5 class="sub-title">$ 500.89</h5>
+					<p class="para-w3">TOSHIBA SATELLITE L855-S5189
+						- 14"
+						- 1366 x 768 LED
+						- Intel Core i7-3537U
+						- 2.4 GHz
+						- 8 GB DDR3L SDRAM
+						- 1 TB HDD
+						- NVIDIA GeForce 840M
+						- Microsoft Windows 7 Professional
+						- 64-bit Edition / Windows 8 Pro 64-bit Upgrade 10
+						- Integrated Webcam
+						- Black
+						- Spanish
+						- Corporate business / Small business
+						- 840M 2GB / 4 Celdas</p>
+				</div>
+				<div class="services-img-agileits-w3layouts">
+					<img src="images/service2.jpg" alt="service-img">
+				</div>
+			</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!--//services-section-->
+<!--team-->
+<div class="team" id="team">
+	<div class="container">
+		<h4 class="title-w3">Otros Servicios</h4>
+		<div class="col-md-3 team-gds wow fadeInLeft animated" data-wow-delay=".5s">
+			<div class="gal-grid-rev vertical">
+				<div class="img-box-content"><img src="images/team1.jpg" alt=" " /></div>
+					<div class="gal-text-box">
+						<div class="info-gal-con">
+							<div class="social-content">
+								<ul>
+									<li class="facebook"><a class=" hvr-underline-from-center" href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+
+								</ul>			
+							</div>
+						</div>
+					</div>
+			</div>
+			<h4>Cableado Estructurado</h4>
+			
+		</div>
+		<div class="col-md-3 team-gds wow fadeInUp animated" data-wow-delay=".5s">
+			<div class="gal-grid-rev vertical">
+				<div class="img-box-content"><img src="images/team2.jpg" alt=" " /></div>
+					<div class="gal-text-box">
+						<div class="info-gal-con">
+							<div class="social-content">
+								<ul>
+									<li class="facebook"><a class="ico1 hvr-underline-from-center" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li class="twitter"><a class="ico2 hvr-underline-from-center" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li class="pinterest"><a class="ico3 hvr-underline-from-center" href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+								</ul>			
+							</div>
+						</div>
+					</div>
+			</div>
+			<h4>Redes</h4>
+		
+		</div>
+		<div class="col-md-3 team-gds wow fadeInDown animated three" data-wow-delay=".5s">
+			<div class="gal-grid-rev vertical">
+				<div class="img-box-content"><img src="images/team3.jpg" alt=" " /></div>
+					<div class="gal-text-box">
+						<div class="info-gal-con">
+							<div class="social-content">
+								<ul>
+									<li class="facebook"><a class="ico1 hvr-underline-from-center" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li class="twitter"><a class="ico2 hvr-underline-from-center" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li class="pinterest"><a class="ico3 hvr-underline-from-center" href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+								</ul>			
+							</div>
+						</div>
+					</div>
+			</div>
+			<h4>Virtualizacion</h4>
+		
+		</div>
+		<div class="col-md-3 team-gds wow fadeInRight animated four" data-wow-delay=".5s">
+			<div class="gal-grid-rev vertical">
+				<div class="img-box-content"><img src="images/team4.jpg" alt=" " /></div>
+					<div class="gal-text-box">
+						<div class="info-gal-con">
+							<div class="social-content">
+								<ul>
+									<li class="facebook"><a class="ico1 hvr-underline-from-center" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li class="twitter"><a class="ico2 hvr-underline-from-center" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li class="pinterest"><a class="ico3 hvr-underline-from-center" href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+								</ul>			
+							</div>
+						</div>
+					</div>
+			</div>
+			<h4>Cloud Storage</h4>
+		
+		</div>
+		
+		<div class="clearfix"></div>
+
+	</div>
+</div>
+<!--//team-->
+<!-- gallery -->
+		<div class="gallery"  id="gallery">
+			<div class="container">
+				<h4 class="title-w3">Nuestro inventario</h4>
+				<div id="jzBox" class="jzBox">
+					<div id="jzBoxNextBig"></div>
+					<div id="jzBoxPrevBig"></div>
+					<img src="#" id="jzBoxTargetImg" alt="">
+					<div id="jzBoxBottom">
+						<div id="jzBoxTitle"></div>
+						<div id="jzBoxCounter"></div>
+						<span id="jzBoxMoreItems"> 
+							<i class="glyphicon glyphicon-chevron-left" id="jzBoxPrev"></i> &nbsp;
+							<i class="glyphicon glyphicon-chevron-right" id="jzBoxNext"></i> &nbsp;
+						</span>
+						<i class="glyphicon glyphicon-remove-circle" id="jzBoxClose"></i>
+					</div>
+				</div>
+				<div class="gallery-grids-row">
+					<div class="col-md-4 gallery-grid">
+						<div class="wpf-demo-4">  
+							<a href="images/g1.jpg" class="jzBoxLink item-hover" title="Dell Latitude $630.48">  
+								<img src="images/g1.jpg" class="img-responsive" alt=" " />
+								<div class="view-caption">
+									<p>Dell Latitude $630.48</p>
+								</div> 
+							</a>    		
+						</div>
+						<div class="wpf-demo-4">  
+							<a href="images/g2.jpg" class="jzBoxLink item-hover" title="Sony Vaio $ 450.89">  
+								<img src="images/g2.jpg" alt=" " class="img-responsive" />
+								<div class="view-caption">
+									<p>Sony Vaio $ 450.89</p>
+								</div> 
+							</a>    			
+						</div>
+						<div class="wpf-demo-4">  
+							<a href="images/g7.jpg" class="jzBoxLink item-hover" title="Dell Latitude $ 610.78">  
+								<img src="images/g7.jpg" alt=" " class="img-responsive" />
+								<div class="view-caption">
+									<p>Dell Latitude $ 610.78</p>
+								</div> 
+							</a>    			
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-4 gallery-grid">
+						<div class="wpf-demo-4">  
+							<a href="images/g3.jpg" class="jzBoxLink item-hover" title="Dell Latitude $ 510.78">  
+								<img src="images/g3.jpg" alt=" " class="img-responsive" />
+								<div class="view-caption">
+									<p>Dell Latitude $ 510.78 </p>
+								</div> 
+							</a>    			
+						</div>
+						<div class="wpf-demo-4">  
+							<a href="images/g4.jpg" class="jzBoxLink item-hover" title="Asus $ 680.48">  
+								<img src="images/g4.jpg" alt=" " class="img-responsive" />
+								<div class="view-caption">
+									<p>Asus $ 680.48</p>
+								</div> 
+							</a>    			
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-4 gallery-grid">
+						<div class="wpf-demo-4">  
+							<a href="images/g6.jpg" class="jzBoxLink item-hover" title="HP $ 398.78">  
+								<img src="images/g6.jpg" alt=" " class="img-responsive" />
+								<div class="view-caption">
+									<p>HP $ 398.78</p>
+								</div> 
+							</a>  
+						</div> 
+						<div class="wpf-demo-4">  
+							<a href="images/g8.jpg" class="jzBoxLink item-hover" title="Toshiba Satellite $ 200.48">  
+								<img src="images/g8.jpg" alt=" " class="img-responsive" />
+								<div class="view-caption">
+									<p>Toshiba Satellite $ 200.48</p>
+								</div> 
+							</a>    			
+						</div>
+						<div class="wpf-demo-4">  
+							<a href="images/g5.jpg" class="jzBoxLink item-hover" title="Samsung $ 700.10">  
+								<img src="images/g5.jpg" alt=" " class="img-responsive" />
+								<div class="view-caption">
+									<p>Samsung $ 700.10</p>
+								</div> 
+							</a>    			
+						</div> 
+						<div class="clearfix"> </div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+		<!-- //gallery --> 	
+<!--map-->
+	<div class="map-agileits-w3layouts">
+		<h4 class="title-w3">Encuentranos <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span></h4>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d871.4283341521207!2d-87.19579204553331!3d14.05888579097365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xde5a2ec1a0c868d7!2sBurger+Chicken%C2%B4s!5e1!3m2!1ses!2shn!4v1476036622995" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+	</div>
+<!--map-->
+<!--footer-section-->
+<div class="footer" id="contact">
+	<div class="container">
+		<div class="col-md-5 footer-left-agile">
+			<h5 class="sub-title">Privacidad</h5>
+			<label></label>
+			<p class="para-w3">La presente Declaración de privacidad sobre la información del cliente y el usuario de nuestros sitios web (en adelante, la “Declaración de privacidad”) se aplica a CompuVentas. y sus filiales internacionales (en conjunto, aludidas con el nombre “CompuVentas” o el pronombre personal o los posesivos de la primera persona del plural), sin incluir las filiales de CompuVentas que hayan publicado sus propias declaraciones de privacidad y seguridad, como tampoco los sitios web de nuestros socios comerciales o las actividades de terceros, aun cuando sus sitios web contengan vínculos a nuestro contenido. Le recomendamos leer las declaraciones de privacidad de otras personas o empresas de quienes obtenga nuestro productos. </p>
+				<ul>
+					<li class="facebook"><a href="https://www.facebook.com/" class="hvr-underline-from-center"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+
+				</ul>
+		</div>
+		<div class="col-md-7 footer-right-w3-agile">
+			<form action="#" method="post">
+				<input type="text" name="Name" placeholder="Nombre" required="" />
+				<input type="text" name="Number" placeholder="Telefono" required="" />
+				<textarea name="Comments" placeholder="Mensaje" required=""></textarea>
+				<input type="submit" value="Enviar" />
+			</form>
+		</div>
+			<div class="clearfix"></div>
+	</div>
+	<div class="copy">
+		<p>© 2016 CompuVentas . Todos los derechos reservados | Diseñador <a href="http://mariosilva.com/">Mario Silva</a> </p>
+	</div>
+</div>
+<!--//footer-section-->
+<script src="js/responsiveslides.min.js"></script>
+		<script>
+				$(function () {
+					$("#slider3").responsiveSlides({
+						auto: true,
+						pager: false,
+						nav: true,
+						speed: 1000,
+						namespace: "callbacks",
+						before: function () {
+							$('.events').append("<li>before event fired.</li>");
+						},
+						after: function () {
+							$('.events').append("<li>after event fired.</li>");
+						}
+					});
+				});
+			</script>
+<!-- smooth scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		/*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+			};
+		*/								
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
 </body>
 </html>
